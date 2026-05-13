@@ -14,8 +14,9 @@ const LiveGameCard = () => {
             <div className='flex  flex-col items-center' >
                 {/* <p className='text-sm font-bold text-[#212121bb]  ' >VS</p> */}
                 <div className='flex flex-col items-center' >
-                    <p className='text-[#212121] text-sm font-semibold tracking-tight '  >45:25</p>
-                    <p className='text-green-700 text-[10px] font-semibold tracking-tight '  >{ true ? "+"+"1" : "" }</p>
+                    <p className='text-[#212121] text-sm font-semibold tracking-tight '  >0 - 0</p>
+                    <div className='text-[#212121] flex items-center justify-center  gap-1  text-[10px] font-semibold tracking-tight '  >45:25 <p className='text-green-700 text-[10px] font-semibold tracking-tight '  >{ true ? "+"+"1" : "" }</p> </div>
+                    
                 </div>
             </div>
             <div className='w-12 h-12 overflow-hidden rounded-full border border-white' > <Image className='w-max rounded-full h-max'  src="" alt="teamlogo" /> </div>
