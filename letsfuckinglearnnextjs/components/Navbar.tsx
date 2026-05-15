@@ -25,7 +25,7 @@ const Navbar = () => {
             <Link className = { pathname ==  "/bundesliga" ? "px-2 py-2  rounded-xl bg-blue-300 transition-all text-gray-700" : 'px-2 py-2  rounded-xl hover:bg-blue-300 transition-all hover:text-gray-700  '}  href = "/bundesliga">Bundesliga</Link> </div> 
             
             <Link className = { pathname ==  "/cricket" ? "px-2 py-2  rounded-xl bg-blue-300 transition-all text-gray-700" : 'px-2 py-2  rounded-xl hover:bg-blue-300 transition-all hover:text-gray-700  '}  href = "/cricket">Cricket</Link>
-            <Link className = { pathname ==  "/ipl" ? "px-2 py-2  rounded-xlbg-blue-300 transition-all text-gray-700" : 'px-2 py-2  rounded-xl hover:bg-blue-300 transition-all hover:text-gray-700  ' } href = "/ipl">IPL</Link>
+            <Link className = { pathname ==  "/ipl" ? "px-2 py-2  rounded-xl bg-blue-300  bg-blue-300 transition-all text-gray-700" : 'px-2 py-2  rounded-xl hover:bg-blue-300 transition-all hover:text-gray-700  ' } href = "/ipl">IPL</Link>
         </div>
 
     </nav>
