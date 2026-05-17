@@ -12,21 +12,21 @@ const page = () => {
 
       <div className="flex border-b border-gray-400  flex-col gap-3 py-3"  >
             <h2 className="text-xl font-bold" >Matches</h2>
-            <div className="flex gap-4 overflow-x-scroll scrollbar-track-transparent w-full h-[22vh] max-h-[24vh]  " >
+            <div className="flex gap-4 overflow-x-auto scrollbar-track-transparent w-full min-h-fit max-h-[24vh]  " >
             <LiveGameCardCricket/>
         </div>
       </div>
 
      <div className="flex border-b border-gray-400  flex-col gap-3 py-3"  >
             <h2 className="text-xl font-bold" >International Cricket</h2>
-            <div className="flex gap-4 overflow-x-scroll scrollbar-track-transparent w-full h-[22vh] max-h-[24vh]  " >
+            <div className="flex gap-4 overflow-x-auto scrollbar-track-transparent w-full min-h-fit max-h-[24vh]  " >
             <LiveGameCardCricket/>
         </div>
      </div>
 
      <div className="flex border-b border-gray-400  flex-col gap-3 py-3"  >
             <h2 className="text-xl font-bold" >Club Cricket</h2>
-            <div className="flex gap-4 overflow-x-scroll scrollbar-track-transparent w-full h-[22vh] max-h-[24vh]  " >
+            <div className="flex gap-4 overflow-x-auto scrollbar-track-transparent w-full min-h-fit max-h-[24vh]  " >
             <LiveGameCardCricket/>
         </div>
      </div>

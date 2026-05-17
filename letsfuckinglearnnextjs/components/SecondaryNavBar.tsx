@@ -2,7 +2,7 @@ import React from 'react'
 
 const SecondaryNavBar = () => {
   return (
-    <div className="w-full sticky top-0 bg-gray-800  h-fit items-center flex py-2 px-2 border-b  border-gray-400  justify-between " >
+    <div className="w-full sticky top-0 bg-gray-900 rounded-xl  h-fit items-center flex py-2 px-2 border-b  border-gray-400  justify-between " >
           
         <h4>Welcome back, username</h4>
     

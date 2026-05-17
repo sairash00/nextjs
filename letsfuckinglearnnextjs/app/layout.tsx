@@ -9,9 +9,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`h-full  antialiased`}
+      className={` antialiased`}
     >
-        <body className="h-screen w-screen flex ">
+        <body className="h-screen w-screen flex">
         <Navbar /> 
         <div>{children}</div>
         </body>
