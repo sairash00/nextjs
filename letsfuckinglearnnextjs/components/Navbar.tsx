@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react';
 
-const Navbar = () => {
+const Navbar = () => { 
 
   const pathname = usePathname();
   const[football, setFootball] = useState(false);
