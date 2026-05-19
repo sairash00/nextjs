@@ -1,9 +1,10 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const LiveGameCard = () => {
   return (
-    <div className='min-w-[20vw] h-full px-3 py-3  rounded-xl bg-[#d5d5d5] '  >
+    <Link href={"/MatchStats"} className='min-w-[20vw] h-full px-3 py-3  rounded-xl bg-[#d5d5d5] '  >
         <h5 className='text-green-700 font-bold tracking-tighter text-[10px] ' >Live</h5>
         <div className=' w-full flex flex-col items-center justify-center ' >
             <h4 className='text-[#212121c3] font-bold text-sm tracking-tighter ' >Laliga</h4>
@@ -24,7 +25,7 @@ const LiveGameCard = () => {
         <div className="flex justify-center items-center w-full" >
             <p className='text-[10px] text-[#212121af] font-bold tracking-tight  ' >Match 38 of 38</p>
         </div>
-    </div>
+    </Link>
   )
 }
 
