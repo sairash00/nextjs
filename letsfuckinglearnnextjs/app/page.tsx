@@ -12,6 +12,10 @@ const Home = async () => {
           "x-rapidapi-key": process.env.APIKEYFOOTBALL!,
           "x-rapidapi-host": "v3.football.api-sports.io",
         },
+
+
+
+        
       }
     );
     const data = await res.json();
