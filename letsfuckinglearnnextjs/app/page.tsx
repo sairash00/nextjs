@@ -13,7 +13,7 @@ const Home = async () => {
           "x-rapidapi-host": "v3.football.api-sports.io",
         },
 
- 
+  
 
         
       }
