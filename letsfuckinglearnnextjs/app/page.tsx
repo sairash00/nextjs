@@ -11,7 +11,7 @@ const Home = async () => {
         headers: {
           "x-rapidapi-key": process.env.APIKEYFOOTBALL!,
           "x-rapidapi-host": "v3.football.api-sports.io",
-        },
+        }, 
 
   
 
