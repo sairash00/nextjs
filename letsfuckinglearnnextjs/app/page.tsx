@@ -14,8 +14,6 @@ const Home = async () => {
         }, 
 
   
-
-        
       }
     );
     const data = await res.json();
