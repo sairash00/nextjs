@@ -13,9 +13,9 @@ const Home = async () => {
           "x-rapidapi-host": "v3.football.api-sports.io",
         }, 
       }
-    ); 
+    );  
     const data = await res.json();
-    console.log(data);
+    console.log(data);  
     
 
   return (
