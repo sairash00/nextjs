@@ -3,7 +3,7 @@
 // import UpcomingMatchCard from "@/components/UpcomingMatchCard"
 
 import SecondaryNavBar from "@/components/SecondaryNavBar"
- 
+   
 const Home = async () => {
  
     const res = await fetch("https://v3.football.api-sports.io/fixtures&season=2026",{
